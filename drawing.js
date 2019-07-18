@@ -13,7 +13,7 @@ let A_aux = [[0,0],[200,200],[100,325],[0,200],[200,0],[200,200],[0,200],[0,0],[
 
 function setup() {
   createCanvas(1000, 800);
-  let drawing_house_bis = get_all_inter_coord(A_aux,50);
+  let drawing_house_bis = get_all_inter_coord(A_aux,20);
   const skip = 1;
   for (let i = 0; i < drawing_house_bis.length; i += skip) {
     x.push(drawing_house_bis[i].x);
