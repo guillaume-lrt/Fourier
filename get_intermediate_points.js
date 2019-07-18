@@ -1,3 +1,5 @@
+// Add n intermediate points to increase accuracy and slow down the speed
+
 
 function distance(a,b){
   return ((a[0]-b[0])**2+(a[1]-b[1])**2)**0.5;
